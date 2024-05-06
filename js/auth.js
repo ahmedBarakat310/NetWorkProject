@@ -17,7 +17,7 @@ function setDefultUsers() {
 // get username and password if you for get it
 let forgetPassword = document.getElementById("forgetPassword");
 forgetPassword.addEventListener("click", () => {
-  alert("UserName:Admin,Password:0000, no correct way");
+  alert("UserName:admin,Password:0000, no correct way");
 });
 
 // set defult user to localstorage 
