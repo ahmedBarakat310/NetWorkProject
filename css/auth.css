@@ -1,0 +1,83 @@
+:root{
+    --marron:#8b3513;
+   
+    /* --marron:#287bff; */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 130px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="button"] {
+    width: 100%;
+    background-color: var(--marron);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background-color: var(--marron);
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+.green{
+    color: green !important;
+}
+span{
+    display: block;
+    margin: 20px 0;
+}
+span a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.cancel{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  .cancel a{
+    text-decoration: none;
+    color: var(--marron);
+    font-size: 25px;
+    padding: 7px 9px;
+   
+    
+    
+  }
+  .cancel a:hover{
+    background-color: var(--marron);
+    color: #f4f4f4;
+  }

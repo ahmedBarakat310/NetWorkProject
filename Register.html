@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/auth.css">
+        <title>SignUp</title>
+</head>
+<body>
+    <div class="cancel" >
+        <a href="Settings.html" >
+
+
+            <i class="fa-solid fa-x "></i>
+        </a>
+
+    </div>
+    <div class="container">
+      
+     
+        <h2>Add User Access</h2>
+        <form id="registerForm" >
+            <input type="text" id="registerUsername" placeholder="Username">
+            <input type="email" id="registerEmail" placeholder="Email">
+            <input type="password" id="registerPassword" placeholder="Password">
+           <a href="#" id="regBtn" onclick="validateRegisterForm()"> <input type="button" value="Register"></a>
+        </form>
+        <div id="registerError" class="error"></div>
+       
+        
+      
+    </div>
+    <script src="js/auth.js"></script>
+</body>
+</html>
