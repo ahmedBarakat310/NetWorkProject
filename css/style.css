@@ -362,6 +362,10 @@ color: var(--white);
   font-size: 18px;
   margin: 5px 0;
 }
+.switchDetails ul li{
+  font-size: 15px;
+  margin: 3px 0;
+}
 .switchDetails ul li span,
 .routerDetails ul li span,
 .serverDetails ul li span
@@ -393,6 +397,7 @@ color: var(--white);
   position: relative;
   height: 70%;
 }
+
 .SwitchesView .switch-img img,
 .RouterView .router-img img,
 .ServerView .server-img img{
@@ -412,7 +417,7 @@ top: 0;
   margin: 10px 5px;
   font-size: 25px;
 }
-.SwitchesView .switch a,
+/* .SwitchesView .switch a,
 .RouterView .router a,
 .ServerView .server a{
   display: block;
@@ -430,6 +435,25 @@ top: 0;
 .SwitchesView .switch a:hover,
 .RouterView .router a:hover,
 .ServerView .server a:hover{
+  background-color: var(--blue);
+  color: var(--white);
+} */
+.switchBtn button{
+  
+    display: block;
+    /* text-align: center; */
+  
+  
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 7px 10px;
+    border: 1px solid var(--blue);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.switchBtn button:hover{
   background-color: var(--blue);
   color: var(--white);
 }

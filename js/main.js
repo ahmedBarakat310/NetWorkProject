@@ -1,5 +1,10 @@
 let x = 0;
-
+let editConfiBtn=document.querySelectorAll('.editConfiBtn');
+editConfiBtn.forEach((btn)=>{
+  btn.addEventListener('click',()=>{
+    alert('No Connection')
+  })
+})
 
 
 let tableSettings = document.getElementById("tableSettings");
